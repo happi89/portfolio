@@ -7,11 +7,11 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Farhaan Patel',
-  role: 'Fullstack Web Developer',
-  description: '.',
+  role: 'Fullstack Web Developer ',
+  description: 'with a passion for learning and creating!',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/farhaan-patel-4658ba237/',
     github: 'https://github.com/happi89',
   },
 }
@@ -20,7 +20,31 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Tweeter',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'NextJS'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Netflix',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'NextJS'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Ecommerce Store',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['Redux', 'TypeScript', 'React', 'NodeJS', 'Express'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Food Tinder App',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -28,15 +52,14 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    name: 'Live Chat App',
+    description: 'Discord Clone',
+    stack: ['Socket.io', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Weather App',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -46,28 +69,64 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'Tailwind',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
-  'Node',
-  'Express',
-  'MongoDB',
-  'MySQL',
-  'GraphQL',
-  'React Native',
-  'Docker',
+  {
+    name: 'Frontend',
+    stack: [
+      'HTML',
+      'CSS',
+      'Tailwind',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'React Native',
+      'Redux',
+      'Material UI',
+      'NextJS',
+      'Jest',
+      'Cypress',
+    ],
+  },
+  {
+    name: 'Backend',
+    stack: [
+      'NodeJS',
+      'ExpressJS',
+      'MongoDB',
+      'MySQL',
+      'Firebase',
+      'Docker',
+      'Sockets.io',
+      'AWS',
+      'Jest',
+      'Redis',
+    ],
+  },
 ]
+
+// const skills = [
+//   // skills can be added or removed
+//   // if there are no skills, Skills section won't show up
+//   'HTML',
+//   'CSS',
+//   'Tailwind',
+//   'JavaScript',
+//   'TypeScript',
+//   'React',
+//   'Redux',
+//   'Material UI',
+//   'Git',
+//   'CI/CD',
+//   'Jest',
+//   'Enzyme',
+//   'Node',
+//   'Express',
+//   'MongoDB',
+//   'MySQL',
+//   'GraphQL',
+//   'React Native',
+//   'Docker',
+//   'NextJS',
+// ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
