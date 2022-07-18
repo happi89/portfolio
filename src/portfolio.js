@@ -1,14 +1,14 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://happi89.github.io/cleanfolio',
+  homepage: 'https://farhaan-patel.vercel.app',
   title: 'FP.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Farhaan Patel',
-  role: 'Fullstack Web Developer ',
-  description: 'with a passion for learning and creating!',
+  role: 'Fullstack Web Developer with a passion for learning and creating!',
+  description: '',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/farhaan-patel-4658ba237/',
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     name: 'Live Chat App',
-    description: 'Discord Clone',
+    description: 'Discord Clone with live video and chat rooms',
     stack: ['Socket.io', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
@@ -103,30 +103,30 @@ const skills = [
   },
 ]
 
-// const skills = [
-//   // skills can be added or removed
-//   // if there are no skills, Skills section won't show up
-//   'HTML',
-//   'CSS',
-//   'Tailwind',
-//   'JavaScript',
-//   'TypeScript',
-//   'React',
-//   'Redux',
-//   'Material UI',
-//   'Git',
-//   'CI/CD',
-//   'Jest',
-//   'Enzyme',
-//   'Node',
-//   'Express',
-//   'MongoDB',
-//   'MySQL',
-//   'GraphQL',
-//   'React Native',
-//   'Docker',
-//   'NextJS',
-// ]
+const skills = [
+  // skills can be added or removed
+  // if there are no skills, Skills section won't show up
+  'HTML',
+  'CSS',
+  'Tailwind',
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'NextJS',
+  'Redux',
+  'Material UI',
+  'Git',
+  'CI/CD',
+  'Jest',
+  'Node',
+  'Express',
+  'sockets.io,
+  'MongoDB',
+  'MySQL',
+  'GraphQL',
+  'React Native',
+  'Docker',
+]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
